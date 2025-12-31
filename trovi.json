@@ -1,16 +1,49 @@
 {
-  "name": "PLC Ardan",
-  "short_description": "Ardan artifact",
-  "description": "plc",
-  "tags": [
-    "reproducible research"
-  ],
-  "authors": [
-    {
-      "name": "Hardani Ismu Nabil",
-      "email": "hardani.ismu.n@gmail.com",
-      "affiliation": "Sebelas Maret University"
-    }
-  ],
-  "version": "1.0.0"
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2025-12-31T03:08:20+00:00",
+            "description": "plc",
+            "disambiguatingDescription": "Ardan artifact",
+            "keywords": "reproducible research",
+            "name": "PLC Ardan"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "Sebelas Maret University",
+            "email": "hardani.ismu.n@gmail.com",
+            "name": "Hardani Ismu Nabil"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
 }
