@@ -1,0 +1,16 @@
+{
+  "name": "PLC Ardan",
+  "short_description": "Ardan artifact",
+  "description": "plc",
+  "tags": [
+    "reproducible research"
+  ],
+  "authors": [
+    {
+      "name": "Hardani Ismu Nabil",
+      "email": "hardani.ismu.n@gmail.com",
+      "affiliation": "Sebelas Maret University"
+    }
+  ],
+  "version": "1.0.0"
+}
